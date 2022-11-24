@@ -16,7 +16,7 @@ app.get('/array', (requisicao, resposta) => {
 });
 
 // exercicio resolvido:
-
+//-------------------------------------------------------------------------
 app.get('/usuarios', (requisicao, resposta) => {
     const usuarios = [
         {id: 11, nome: 'joao', idade: 23},
@@ -27,6 +27,6 @@ app.get('/usuarios', (requisicao, resposta) => {
     ]
     resposta.send(usuarios);
 });
-
+//-------------------------------------------------------------------------
 
 app.listen(3000);
